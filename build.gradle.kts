@@ -10,6 +10,7 @@ buildscript {
 }
 
 plugins {
+    `java-gradle-plugin`
     kotlin("jvm") version "1.3.61"
 }
 
@@ -19,7 +20,15 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleApi())
     implementation(kotlin("stdlib-jdk8"))
+}
+
+gradlePlugin {
+    plugins {
+        create("rascal-plugin") {
+            id = "mleegwt.rascal.gradle.plugin"
+            implementationClass = "mleegwt.rascal.gradle.plugin.RascalPlugin"
+        }
+    }
 }
 
