@@ -17,10 +17,12 @@ plugins {
 repositories {
     jcenter()
     mavenCentral()
+    maven("https://nexus.usethesource.io/content/repositories/releases/")
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.rascalmpl:rascal:0.15.3")
 }
 
 gradlePlugin {
