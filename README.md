@@ -2,3 +2,5 @@
 [![codecov](https://codecov.io/gh/mleegwt/rascal-gradle-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/mleegwt/rascal-gradle-plugin)
 
 # rascal-gradle-plugin
+
+A gradle plugin to allow automated code transformations using the [Rascal Meta Programming Language](https://www.rascal-mpl.org/help/).
