@@ -4,3 +4,5 @@
 # rascal-gradle-plugin
 
 A gradle plugin to allow automated code transformations using the [Rascal Meta Programming Language](https://www.rascal-mpl.org/help/).
+
+The intention is to allow migrations, e.g. JUnit 4 to 5 to be automated. This is work in progress.
